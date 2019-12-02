@@ -18,9 +18,13 @@ public class Anagram {
 	if(check(str1,str2)==true) {
 		System.out.println("The given strings are anagram.");
 	}
-	if(check(str1,str2)==false) {
-		System.out.println("The give strings are not anagram.");
+	else {
+		System.out.println("The given strings are not anagram.");
 	}
+		/*
+		 * if(check(str1,str2)==false) {
+		 * System.out.println("The give strings are not anagram."); }
+		 */
 	}
 	public static boolean check(String str1,String str2) {
 		 char[] charArray1 = str1.toCharArray();	//convert character array
